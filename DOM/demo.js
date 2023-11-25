@@ -25,7 +25,7 @@
     }
   });
 
-  // Search functionality
+  //Search functionality
   document.getElementById('search-box').addEventListener('input', function() {
     const searchString = this.value.toLowerCase();
     const itemsList = document.getElementById('items');
